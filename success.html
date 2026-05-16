@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inquiry Received | AL-NAZIF GLOBAL CONZULT LTD</title>
+    <!-- Tailwind CSS CDN for consistent styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        corpNavy: '#0A192F',
+                        corpGold: '#D4AF37',
+                        corpSlate: '#4A5568',
+                        corpLight: '#F8FAFC'
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome for corporate visual checkmarks -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-corpLight text-slate-800 font-sans antialiased min-h-screen flex flex-col justify-between">
+
+    <!-- Simple Matching Header -->
+    <header class="bg-corpNavy text-white shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold tracking-wider text-corpGold">
+                AL-NAZIF GLOBAL CONZULT LTD
+            </div>
+            <a href="index.html" class="text-sm border border-corpGold text-corpGold px-4 py-2 rounded hover:bg-corpGold hover:text-corpNavy transition duration-300">
+                <i class="fa-solid fa-arrow-left mr-2"></i>Back to Site
+            </a>
+        </div>
+    </header>
+
+    <!-- Success Message Container -->
+    <main class="container mx-auto px-6 py-12 flex-grow flex items-center justify-center">
+        <div class="bg-white p-8 md:p-12 rounded-2xl shadow-xl border border-slate-100 max-w-xl w-full text-center">
+            
+            <!-- Styled Success Badge -->
+            <div class="w-20 h-20 bg-emerald-50 text-emerald-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-inner">
+                <i class="fa-solid fa-circle-check text-4xl"></i>
+            </div>
+            
+            <h1 class="text-3xl font-extrabold text-corpNavy mb-3">Inquiry Successfully Sent!</h1>
+            <p class="text-corpGold font-semibold mb-6 tracking-wide uppercase text-sm">AL-NAZIF GLOBAL CONZULT LTD</p>
+            
+            <p class="text-corpSlate leading-relaxed mb-8">
+                Thank you for reaching out to us. Your organizational requirement outline has been delivered securely to our corporate desk. An executive expert will review your brief and contact you shortly.
+            </p>
+            
+            <!-- Redirection Button Back to Homepage -->
+            <div>
+                <a href="index.html" class="inline-block bg-corpNavy text-white font-bold px-8 py-3.5 rounded-lg hover:bg-corpGold hover:text-corpNavy transition duration-300 shadow-md">
+                    Return to Homepage
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Consistent Corporate Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-8 border-t border-slate-800 text-center">
+        <div class="container mx-auto px-6 max-w-6xl text-sm">
+            <p class="font-bold text-white">AL-NAZIF GLOBAL CONZULT LTD</p>
+            <p class="mt-1">&copy; 2026 All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
